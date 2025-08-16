@@ -1,0 +1,465 @@
+:root {
+    --primary: #438B9C;
+    --primary-dark: #172f3d;
+    --primary-darkest: #153648;
+    --text-dark: #131414;
+    --white: #fff;
+    --light-gray: #F5F9FA;
+    --gray: rgb(128, 128, 128);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.bg-primary-darkest {
+    background-color: var(--primary-darkest);
+}
+
+.bg-light-gray {
+    background-color: var(--light-gray);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+/* Navbar */
+.navbar {
+    padding: 16px 0px;
+}
+
+.logo {
+    width: 28px;
+    height: 28px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero-container {
+    padding: 72px;
+}
+
+.hero-input-container {
+    background-color: var(--white);
+    width: fit-content;
+    border-radius: 8px;
+    border: 1px solid #dfdfdf;
+    padding: 2px;
+}
+
+.hero-input {
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+.hero-input-btn {
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 10px 18px;
+    cursor: pointer;
+    font-weight: semibold;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+}
+
+.hero-card {
+    background-color: var(--white);
+    padding: 24px 24px;
+    border-radius: 12px;
+    max-width: 356px;
+}
+
+.primary-square {
+    background-color: var(--primary);
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+}
+
+.primary-square-lg {
+    background-color: var(--primary);
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+}
+
+.border-card {
+    padding: 12px;
+    border: 1px solid var(--light-gray);
+    border-radius: 8px;
+}
+
+.border-card-credit {
+    padding: 12px;
+    border: 1.5px solid var(--primary);
+    border-radius: 16px;
+}
+
+.credit-card {
+    position: absolute;
+    background-color: var(--primary);
+    min-width: 212px;
+    border-radius: 16px;
+    top: -50px;
+    right: -50px;
+}
+
+.future-payment {
+    width: 65%;
+    position: absolute;
+    bottom: -300px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Borders */
+.rounded {
+    border-radius: 4px;
+}
+
+.rounded-md {
+    border-radius: 8px;
+}
+
+.rounded-lg {
+    border-radius: 16px;
+}
+
+.border-radius-b-16 {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+
+/* Font Styles */
+.text-sm {
+    font-size: 12px;
+}
+
+.text-lg {
+    font-size: 18px;
+}
+
+.text-xl {
+    font-size: 22px;
+}
+
+.text-2xl {
+    font-size: 26px;
+}
+
+.text-3xl {
+    font-size: 34px;
+}
+
+.text-4xl {
+    font-size: 50px;
+}
+
+.text-6xl {
+    font-size: 72px;
+}
+
+.font-semibold {
+    font-weight: 500;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.text-gray {
+    color: var(--gray);
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+.text-dark-primary {
+    color: var(--primary-dark)
+}
+
+.text-center {
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+/* Gaps */
+.gap-4 {
+    gap: 4px;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+.gap-48 {
+    gap: 48px;
+}
+
+.gap-64 {
+    gap: 64px;
+}
+
+.gap-96 {
+    gap: 96px;
+}
+
+.gap-128 {
+    gap: 128px;
+}
+
+/* Widths & Heights */
+.w-full {
+    width: 100%;
+}
+
+.w-24 {
+    width: 24px;
+}
+
+.w-32 {
+    width: 32px;
+}
+
+.w-64 {
+    width: 64px;
+}
+
+.w-96 {
+    width: 96px;
+}
+
+.w-128 {
+    width: 128px;
+}
+
+.h-32 {
+    height: 32px;
+}
+
+/* Margins & Paddings */
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-32 {
+    margin-right: 32px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mt-412 {
+    margin-top: 412px;
+}
+
+.mb-48 {
+    margin-bottom: 48px;
+}
+
+.mb-96 {
+    margin-bottom: 72px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.p-24 {
+    padding: 24px;
+}
+
+.p-48 {
+    padding: 48px;
+}
+
+.px-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.px-64 {
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.px-128 {
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.py-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.py-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.py-48 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.py-96 {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.pb-96 {
+    padding-bottom: 96px;
+}
+
+.pb-108 {
+    padding-bottom: 108px;
+}
+
+.pb-128 {
+    padding-bottom: 245px;
+}
+
+/* Buttons */
+.btn-base {
+    padding: 9px 18px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: semibold;
+}
+
+.primary-btn {
+    background-color: var(--primary);
+    color: white;
+    border: 1px solid transparent;
+
+}
+
+.secondary-btn {
+    background-color: white; /* Change this to whatever we're using later */
+    border: 1px solid gray;
+}
+
+/* Only really adding this pay button here as it's the only occurrence of this color */
+.pay-btn {
+    background-color: #153648;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 16px;
+}
+
+
+/* Hide the default radio button */
+.custom-radio input[type="radio"] {
+  display: none;
+}
+
+/* Style the custom circle */
+.radio-circle {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.radio-circle::after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: background-color 0.2s;
+}
+
+.custom-radio input[type="radio"]:checked + .radio-circle::after {
+  background-color: var(--primary); /* Your desired color */
+}
+
+.custom-radio input[type="radio"]:checked + .radio-circle {
+  border-color: var(--primary);
+}
+
+.shadow {
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.15);
+}
+
+.rotate-45 {
+    transform: rotate(90deg);
+}
